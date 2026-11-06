@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errol Lulu | Trusted Vehicle Broker & Matchmaker</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#fff7ed',
+                            100: '#ffedd5',
+                            500: '#f97316',
+                            600: '#ea580c',
+                            700: '#c2410c',
+                            accent: '#f59e0b'
+                        },
+                        dark: {
+                            900: '#0b0f17',
+                            800: '#111827',
+                            700: '#1e293b',
+                            600: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glow-orange {
+            box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.4);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #ffffff 30%, #f97316 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-dark-900/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white font-extrabold text-xl shadow-lg group-hover:scale-105 transition-transform">
+                    EL
+                </div>
+                <div>
+                    <span class="text-lg font-bold tracking-tight block text-white leading-none">ERROL LULU</span>
+                    <span class="text-xs text-brand-500 font-medium tracking-wide">VEHICLE MATCHMAKER</span>
+                </div>
+            </a>
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-brand-500 transition-colors">Tungkol Kay Errol</a>
+                <a href="#why-me" class="hover:text-brand-500 transition-colors">Bakit Ako?</a>
+                <a href="#how-it-works" class="hover:text-brand-500 transition-colors">3-Step Process</a>
+                <a href="#evaluate" class="hover:text-brand-500 transition-colors">Evaluate Your Car</a>
+            </nav>
+            <a href="#evaluate" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 text-white font-semibold text-sm hover:from-brand-600 hover:to-brand-700 transition-all shadow-md hover:shadow-brand-500/25">
+                Ibenta Sasakyan Mo <i class="fa-solid fa-arrow-right ml-1.5 text-xs"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section class="relative py-20 lg:py-28 overflow-hidden">
+            <!-- Background Elements -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute top-0 right-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Hero Content -->
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-semibold text-brand-500 backdrop-blur-sm">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                            Active Buying & Selling Matchmaker • Calamba, Laguna
+                        </div>
+                        
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+                            Gusto Mo Ba Mabenta Car Mo nang <span class="gradient-text">Mabilis at Walang Sakit sa Ulo?</span>
+                        </h1>
+                        
+                        <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                            No joyriders. No lowballers. No 50+ chat messages na hindi naman bibili. Ako na bahala mag-connect sa sasakyan mo sa mga <strong class="text-slate-200 font-semibold">direct, serious cash buyers</strong> sa Laguna at buong Luzon!
+                        </p>
+
+                        <!-- Feature Badges -->
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-2.5 pt-2">
+                            <span class="px-3 py-1.5 rounded-lg bg-dark-800 border border-slate-700/60 text-xs font-medium text-slate-300 flex items-center gap-1.5">
+                                <i class="fa-solid fa-bolt text-brand-500"></i> Fast Payout
+                            </span>
+                            <span class="px-3 py-1.5 rounded-lg bg-dark-800 border border-slate-700/60 text-xs font-medium text-slate-300 flex items-center gap-1.5">
+                                <i class="fa-solid fa-[#000] fa-user-shield text-brand-500"></i> Direct Buyer Network
+                            </span>
+                            <span class="px-3 py-1.5 rounded-lg bg-dark-800 border border-slate-700/60 text-xs font-medium text-slate-300 flex items-center gap-1.5">
+                                <i class="fa-solid fa-comments-slash text-brand-500"></i> Zero Joyriders
+                            </span>
+                            <span class="px-3 py-1.5 rounded-lg bg-dark-800 border border-slate-700/60 text-xs font-medium text-slate-300 flex items-center gap-1.5">
+                                <i class="fa-solid fa-handshake text-brand-500"></i> Fair & Honest Commission
+                            </span>
+                        </div>
+
+                        <!-- CTA Buttons -->
+                        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                            <a href="#evaluate" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 text-white font-bold text-base hover:from-brand-600 hover:to-brand-700 transition-all shadow-lg glow-orange text-center">
+                                <i class="fa-solid fa-car-side mr-2"></i> Submit Unit Details
+                            </a>
+                            <a href="#about" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-base transition-all text-center">
+                                kilalanin si Errol
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hero Visual Card -->
+                    <div class="lg:col-span-5">
+                        <div class="relative max-w-md mx-auto">
+                            <!-- Glowing Frame -->
+                            <div class="absolute -inset-1 bg-gradient-to-r from-brand-500 to-amber-500 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                            
+                            <div class="relative rounded-2xl bg-dark-800 border border-slate-700/80 p-6 sm:p-8 shadow-2xl">
+                                <div class="flex items-center gap-4 mb-6 pb-6 border-b border-slate-700/60">
+                                    <div class="w-16 h-16 rounded-2xl bg-slate-700 flex items-center justify-center text-3xl font-bold text-brand-500 border border-slate-600 shadow-inner">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                    </div>
+                                    <div>
+                                        <h2 class="text-xl font-bold text-white">Errol Lulu</h2>
+                                        <p class="text-sm text-brand-500 font-medium">Vehicle Agent / Middleman</p>
+                                        <p class="text-xs text-slate-400 mt-1"><i class="fa-solid fa-location-dot text-red-400 mr-1"></i> Calamba, Laguna, PH</p>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-4 text-sm text-slate-300">
+                                    <div class="p-3.5 rounded-xl bg-dark-700/50 border border-slate-700/50 flex items-start gap-3">
+                                        <i class="fa-solid fa-bullseye text-brand-500 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-white">Goal Ko:</p>
+                                            <p class="text-xs text-slate-400">Mapabilis ang benta ng sasakyan mo nang walang stress at sa tamang presyo.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-3.5 rounded-xl bg-dark-700/50 border border-slate-700/50 flex items-start gap-3">
+                                        <i class="fa-solid fa-users text-brand-500 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-white">Direct Connections:</p>
+                                            <p class="text-xs text-slate-400">May Ready-to-Buy big players and quick buyers na agad makikipag-transaction.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="p-3.5 rounded-xl bg-dark-700/50 border border-slate-700/50 flex items-start gap-3">
+                                        <i class="fa-solid fa-shield-halved text-emerald-400 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-white">Transparent Dealing:</p>
+                                            <p class="text-xs text-slate-400">Walang tagong bayad. Small decent commission lang pag naibenta ang unit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-6 pt-4 border-t border-slate-700/60 text-center">
+                                    <span class="text-xs text-slate-400">Kailangan ng mabilis na cash for your car? </span>
+                                    <a href="#evaluate" class="text-xs text-brand-500 font-bold hover:underline">Usap Tayo Agad →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Errol Section -->
+        <section id="about" class="py-16 bg-dark-800/50 border-y border-slate-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-10">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-brand-500">Sino ba si Errol?</h2>
+                    <p class="text-3xl font-extrabold text-white mt-2">Ang Kakampi Mo Sa Pagbebenta ng Sasakyan</p>
+                </div>
+
+                <div class="bg-dark-800 border border-slate-700/70 rounded-2xl p-6 sm:p-10 text-slate-300 space-y-4 text-base leading-relaxed">
+                    <p class="text-lg font-medium text-slate-100">
+                        "Pare, ayaw mo ba ng ma-hassle sa pag-post sa Marketplace?"
+                    </p>
+                    <p>
+                        Alam natin ang kwento sa FB Marketplace o online listing sites—magpo-post ka ngayon, tapos paggising mo bukas, may 30 messages na ng <em>"Available pa boss?"</em> o kaya <em>"PM last price"</em> tapos biglang se-seen zone ka lang o mag-ooffer ng sobrang pambabarat.
+                    </p>
+                    <p>
+                        Diyan ako pumasok! Base ako dito sa <strong class="text-white font-semibold">Calamba, Laguna</strong>. Ang ginagawa ko, kinukuha ko ang details ng unit mo at idinidirekta ko sa aking personal network of verified car buyers, dealership traders, and big-time buy-and-sell players.
+                    </p>
+                    <p class="p-4 rounded-xl bg-brand-500/10 border border-brand-500/30 text-slate-200 font-medium">
+                        ✨ <strong>Bottomline:</strong> Sila yung mga buyers na may hawak na cash, hindi madaming satsat, at ready kumatok para mag-inspect at magbayad agad kapag maayos ang unit at makatarungan ang presyo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Work With Me (Key Benefits) -->
+        <section id="why-me" class="py-20">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-14">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-brand-500">Bakit Ako Ang Agent Mo?</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Bakit Mas Masarap Magbenta Thru Errol?</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    
+                    <div class="bg-dark-800 border border-slate-800 hover:border-brand-500/50 rounded-2xl p-6 transition-all hover:-translate-y-1">
+                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center text-xl font-bold mb-5">
+                            <i class="fa-solid fa-address-book"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Direct Buyer Access</h3>
+                        <p class="text-sm text-slate-400">Hindi na kailangan mag-hintay ng matagal. May koneksyon ako sa mga verified big players sa vehicle trading.</p>
+                    </div>
+
+                    <div class="bg-dark-800 border border-slate-800 hover:border-brand-500/50 rounded-2xl p-6 transition-all hover:-translate-y-1">
+                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center text-xl font-bold mb-5">
+                            <i class="fa-solid fa-face-smile-beam"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Zero Stress & Filtered</h3>
+                        <p class="text-sm text-slate-400">Ako ang sasalo ng inquiries. Walang barat, walang joyriders, at walang mag-aaksaya ng oras mo.</p>
+                    </div>
+
+                    <div class="bg-dark-800 border border-slate-800 hover:border-brand-500/50 rounded-2xl p-6 transition-all hover:-translate-y-1">
+                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center text-xl font-bold mb-5">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Fair & Honest Deal</h3>
+                        <p class="text-sm text-slate-400">Transparante ang usapan mula simula hanggang matapos ang deal. Makatarungang commission lang.</p>
+                    </div>
+
+                    <div class="bg-dark-800 border border-slate-800 hover:border-brand-500/50 rounded-2xl p-6 transition-all hover:-translate-y-1">
+                        <div class="w-12 h-12 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center text-xl font-bold mb-5">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Laguna & Luzon Reach</h3>
+                        <p class="text-sm text-slate-400">Based sa Calamba, Laguna pero ang buyer network ko ay abot sa Cavite, Batangas, NCR, at Central Luzon.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3-Step Process -->
+        <section id="how-it-works" class="py-20 bg-dark-800/40 border-y border-slate-800">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-brand-500">Paano Ang Proseso?</h2>
+                    <p class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Mabilis Lang! 1-2-3 Done Deal</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                    
+                    <!-- Step 1 -->
+                    <div class="bg-dark-800 border border-slate-700/60 rounded-2xl p-8 relative">
+                        <span class="absolute -top-4 left-6 px-3 py-1 rounded-md bg-brand-500 text-white font-extrabold text-xs">STEP 01</span>
+                        <div class="text-3xl text-brand-500 mb-4 pt-2"><i class="fa-solid fa-pen-to-square"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Send Unit Details</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Sagutan ang form sa ibaba o i-message sa akin ang Make/Model, Year, Transmission, Issue (if any), at ang Selling Price mo.
+                        </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="bg-dark-800 border border-slate-700/60 rounded-2xl p-8 relative">
+                        <span class="absolute -top-4 left-6 px-3 py-1 rounded-md bg-brand-500 text-white font-extrabold text-xs">STEP 02</span>
+                        <div class="text-3xl text-brand-500 mb-4 pt-2"><i class="fa-solid fa-magnifying-glass-dollar"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Matching & Inspection</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Ipa-match ko agad ang unit mo sa aking network of serious buyers. Kapag nagkasundo sa presyo, i-schedule natin ang mabilisang viewing.
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="bg-dark-800 border border-slate-700/60 rounded-2xl p-8 relative">
+                        <span class="absolute -top-4 left-6 px-3 py-1 rounded-md bg-brand-500 text-white font-extrabold text-xs">STEP 03</span>
+                        <div class="text-3xl text-brand-500 mb-4 pt-2"><i class="fa-solid fa-sack-dollar"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Closing & Fast Payout</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            Kapag nagustuhan ng buyer, bayad agad sa'yo! Direct bank transfer o cash handling. Wala nang maraming hassle at antayan.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Evaluation Form Section -->
+        <section id="evaluate" class="py-20 relative">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/30 text-xs font-bold text-brand-500 uppercase tracking-wider">Instant Pitch Builder</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Ibenta Na Ang Sasakyan Mo</h2>
+                    <p class="text-slate-400 text-sm mt-2">I-fill up lang ang detalye sa ibaba para makagawa tayo ng structured summary card na pwede mong direktang i-send kay Errol sa FB Messenger!</p>
+                </div>
+
+                <div class="bg-dark-800 border border-slate-700/80 rounded-3xl p-6 sm:p-10 shadow-2xl">
+                    <form id="carForm" class="space-y-6">
+                        
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Vehicle Brand & Model -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Brand & Model *</label>
+                                <input type="text" id="carModel" required placeholder="e.g. Toyota Vios / Ford Everest" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+
+                            <!-- Year Model -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Year Model *</label>
+                                <input type="text" id="carYear" required placeholder="e.g. 2018 / 2021" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                            <!-- Transmission -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Transmission *</label>
+                                <select id="carTrans" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                                    <option value="Automatic">Automatic (AT)</option>
+                                    <option value="Manual">Manual (MT)</option>
+                                    <option value="CVT">CVT</option>
+                                </select>
+                            </div>
+
+                            <!-- Mileage -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Mileage (Odometer)</label>
+                                <input type="text" id="carMileage" placeholder="e.g. 45,000 km" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+
+                            <!-- Location -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Location ng Unit *</label>
+                                <input type="text" id="carLocation" required placeholder="e.g. Calamba / Santa Rosa / Manila" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Asking Price -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Asking Price (PHP) *</label>
+                                <input type="text" id="carPrice" required placeholder="e.g. 480,000" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+
+                            <!-- Seller Name & Contact -->
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Pangalan Mo & Contact No. *</label>
+                                <input type="text" id="sellerContact" required placeholder="e.g. Juan dela Cruz (0917-XXX-XXXX)" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm">
+                            </div>
+                        </div>
+
+                        <!-- Extra Notes -->
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Issue / Remarks / Upgrades (Optional)</label>
+                            <textarea id="carNotes" rows="3" placeholder="Halimbawa: Clean papers, cold AC, minor scratches lang sa bumper, complete service record..." class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-brand-500 transition-colors text-sm"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-500 to-brand-600 text-white font-extrabold text-base hover:from-brand-600 hover:to-brand-700 transition-all shadow-lg glow-orange flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> Generate Specs Card & Send to Errol
+                        </button>
+                    </form>
+
+                    <!-- Summary Card Output (Hidden initially) -->
+                    <div id="outputContainer" class="hidden mt-8 pt-8 border-t border-slate-700">
+                        <div class="bg-dark-900 rounded-2xl p-6 border border-brand-500/40 relative">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-xs font-bold text-brand-500 uppercase tracking-wider">Ready to Send Summary</span>
+                                <span class="text-xs text-slate-400">Copy & Paste to Messenger</span>
+                            </div>
+                            
+                            <textarea id="generatedText" readonly rows="8" class="w-full p-4 rounded-xl bg-dark-800 text-slate-200 border border-slate-700 font-mono text-xs sm:text-sm focus:outline-none resize-none"></textarea>
+
+                            <div class="mt-4 flex flex-col sm:flex-row gap-3">
+                                <button id="copyBtn" onclick="copyToClipboard()" class="flex-1 py-3 px-4 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-semibold text-sm transition-colors flex items-center justify-center gap-2">
+                                    <i class="fa-regular fa-copy"></i> <span id="copyText">Copy Text</span>
+                                </button>
+                                <a id="messengerBtn" href="https://m.me/" target="_blank" class="flex-1 py-3 px-4 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm transition-colors flex items-center justify-center gap-2 text-center">
+                                    <i class="fa-brands fa-facebook-messenger text-base"></i> Open Messenger & Send
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Contact Section -->
+        <section class="py-16 bg-dark-800/80 border-t border-slate-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-2xl font-bold text-white mb-2">May Tanong O Gusto Mo Munang Makipag-Usap?</h2>
+                <p class="text-slate-400 text-sm mb-8">Direct message ka lang! Walang pressure, pag-usapan natin ang sasakyan mo.</p>
+
+                <div class="flex flex-wrap justify-center items-center gap-4">
+                    <a href="https://m.me/" target="_blank" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-all flex items-center gap-2 shadow-lg">
+                        <i class="fa-brands fa-facebook-messenger text-lg"></i> Direct Message (FB)
+                    </a>
+                    <a href="tel:09170000000" class="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm transition-all flex items-center gap-2 shadow-lg">
+                        <i class="fa-solid fa-phone text-base"></i> Call / SMS Errol
+                    </a>
+                    <div class="px-6 py-3.5 rounded-xl bg-dark-700 border border-slate-600 text-slate-200 font-semibold text-sm flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-brand-500"></i> Calamba, Laguna
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-dark-900 border-t border-slate-800/80 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4">
+            <p>© <span id="year"></span> Errol Lulu • Vehicle Broker & Matchmaker Services.</p>
+            <p class="mt-1">Calamba, Laguna, Philippines • Dedicated to fast, honest, and stress-free vehicle deals.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript logic -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Form submission handler
+        document.getElementById('carForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const model = document.getElementById('carModel').value.trim();
+            const year = document.getElementById('carYear').value.trim();
+            const trans = document.getElementById('carTrans').value;
+            const mileage = document.getElementById('carMileage').value.trim() || 'N/A';
+            const location = document.getElementById('carLocation').value.trim();
+            const price = document.getElementById('carPrice').value.trim();
+            const contact = document.getElementById('sellerContact').value.trim();
+            const notes = document.getElementById('carNotes').value.trim() || 'None';
+
+            const formattedText = `Hi Errol! I want to sell my vehicle through you. Here are the details:
+
+🚗 Unit: ${model} (${year})
+⚙️ Transmission: ${trans}
+📏 Mileage: ${mileage}
+📍 Location: ${location}
+💰 Asking Price: ₱${price}
+📝 Issues/Notes: ${notes}
+
+👤 Seller Contact: ${contact}
+
+Paki-match sa direct buyers mo bossing. Salamat!`;
+
+            document.getElementById('generatedText').value = formattedText;
+            document.getElementById('outputContainer').classList.remove('hidden');
+
+            // Scroll down smooth to the results
+            document.getElementById('outputContainer').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Copy to clipboard fallback
+        function copyToClipboard() {
+            const copyText = document.getElementById("generatedText");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            try {
+                document.execCommand('copy');
+                const btnLabel = document.getElementById('copyText');
+                btnLabel.textContent = 'Copied!';
+                setTimeout(() => {
+                    btnLabel.textContent = 'Copy Text';
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy', err);
+            }
+        }
+    </script>
+</body>
+</html>
